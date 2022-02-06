@@ -1,0 +1,35 @@
+# ZJU 内网
+# 校内直连，校外通过内网穿透或 RVPN 访问
+
+# 域名
+DOMAIN-SUFFIX,zju.edu.cn
+
+# CC98
+DOMAIN-KEYWORD,cc98
+
+# NexusHD
+DOMAIN-KEYWORD,nexushd
+
+# 校内 IP
+IP-CIDR,10.0.0.0/8,no-resolve
+
+# 通过 IP 认证的资源
+# 请勿添加可通过统一身份认证访问的国外资源，此类资源无需内网环境，可通过代理加速访问
+DOMAIN-SUFFIX,acm.org
+DOMAIN-SUFFIX,cnki.net
+DOMAIN-SUFFIX,gtadata.com
+DOMAIN-SUFFIX,jstor.org
+DOMAIN-SUFFIX,webofscience.com
+DOMAIN-SUFFIX,inoteexpress.com
+DOMAIN-SUFFIX,pnas.org
+DOMAIN-SUFFIX,cnpereading.com
+DOMAIN-SUFFIX,sciencemag.org
+DOMAIN-SUFFIX,cas.org
+DOMAIN-SUFFIX,webofknowledge.com
+DOMAIN-SUFFIX,pkulaw.com
+DOMAIN-SUFFIX,sslibrary.com
+DOMAIN-SUFFIX,serialssolutions.com
+DOMAIN-SUFFIX,duxiu.com
+DOMAIN-SUFFIX,wanfangdata.com.cn
+DOMAIN-SUFFIX,koolearn.com
+DOMAIN-SUFFIX,cssci.nju.edu.cn
