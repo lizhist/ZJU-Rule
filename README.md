@@ -27,7 +27,7 @@
 
 ## 使用方法
 
-### 安装代理工具
+### 安装 Clash
 
 + 使用 [Clash](https://github.com/Dreamacro/clash) 作为代理工具，此工具支持 SS/SSR/V2Ray/Trojan/HTTP/HTTPS/SOCKS 等多种协议。不同平台的客户端如下：
 
@@ -55,17 +55,21 @@ Clash 采用继承的分流配置方式，例如，巴哈姆特设置为使用�
 
 ## 常见问题
 
++ 我不喜欢生成的规则/分组太复杂，可以更改吗？
+
+  公用转换服务使用 [ZJU.ini](https://github.com/ZJU-Rule/ZJU-Rule/blob/master/Clash/config/ZJU.ini) 作为规则分组文件。该文件修改自 [ACL4SSR_Online_Full_AdblockPlus.ini](https://github.com/ZJU-Rule/ZJU-Rule/blob/master/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini)，添加了 [ZJU.list](https://github.com/ZJU-Rule/ZJU-Rule/blob/master/Clash/ZJU.list)。如要修改规则分组，请 Fork 本项目，自行搭建 [subconverter](https://github.com/tindy2013/subconverter) 并编辑 [ZJU.ini](https://github.com/ZJU-Rule/ZJU-Rule/blob/master/Clash/config/ZJU.ini) 进行转换
+
 + 使用公用 ZJU Rule 转换服务会泄露我的订阅链接吗？
 
-  我们不会对用户的订阅链接进行储存。您也可以进行搭建 [subconverter](https://github.com/tindy2013/subconverter) 并使用 ZJU Rule 规则进行转换
+  我们不会对用户的订阅链接进行储存。您也可以自行搭建 [subconverter](https://github.com/tindy2013/subconverter) 并使用 ZJU Rule 规则进行转换
 
 + 我可以为其他客户端生成订阅链接吗？
   
   通过更改链接中的 target 参数可以为 Surge 等客户端生成订阅。请参考 [subconverter](https://github.com/tindy2013/subconverter) 文档
 
-+ 我可以对 ZJU Rule 进行修改吗？
++ 我可以对 ZJU Rule 进行完善吗？
 
-  我们欢迎您通过 issue 提出意见或建议，或提交 Pull Request 完善规则。ZJU 内网规则之外的规则请向项目上游 [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master) 进行反馈，上游不予采纳时也可以向 ZJU Rule 提交
+  我们欢迎您通过 Issue 提出意见或建议，或提交 Pull Request 完善规则。ZJU 内网规则之外的规则请向项目上游 [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master) 进行反馈，上游不予采纳时也可以向 ZJU Rule 提交
 
 ## 致谢
 
