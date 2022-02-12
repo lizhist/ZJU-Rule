@@ -41,7 +41,7 @@
 
 + 无论机场提供的订阅链接是 SS/SSR/V2Ray 等订阅链接，还是 Clash 订阅链接，都需要提取出其中的节点信息，再按照 ZJU Rule 进行处理，生成处理后的 Clash 订阅链接
 
-+ 订阅转换需要使用 [subconverter](https://github.com/tindy2013/subconverter)。subconverter 的部署较为复杂，推荐使用已在 heroku 部署完成的公用 ZJU Rule 转换服务。也可以自己搭建 subconverter 并使用 ZJU Rule 规则进行订阅转换
++ 订阅转换需要使用 [subconverter](https://github.com/tindy2013/subconverter)。subconverter 的部署较为复杂，推荐使用已在腾讯云香港部署完成的公用 ZJU Rule 转换服务。也可以自己搭建 subconverter 并使用 ZJU Rule 规则进行订阅转换
 
 + 下面介绍如何使用公用 ZJU Rule 转换服务。打开 [ZJU Rule 转换网站](https://zjurule.xyz/)，粘贴机场提供的订阅链接，点击生成订阅链接即可生成转换后的订阅链接
 
